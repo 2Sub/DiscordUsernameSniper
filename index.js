@@ -22,7 +22,7 @@ new cron.CronJob(`*/${cooldown} * * * * *`, () => {
 
     axios.post('https://ptb.discord.com/api/v9/users/@me/pomelo', { username: username }, {
         headers: {
-            'content-type': 'application/json',
+            'Content-Type': 'application/json',
             Authorization: token
         }
     }).then((response) => {
