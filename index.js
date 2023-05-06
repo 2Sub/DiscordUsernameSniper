@@ -31,7 +31,7 @@ new cron.CronJob(`*/${cooldown} * * * * *`, () => {
         process.exit();
     }).catch((error) => {
         console.clear();
-        if (process.env.ERROR_DETAILS.toLowerCase() == "true") {
+        if (process.env?.ERROR_DETAILS?.toLowerCase() == "true") {
             console.log(error.response.data);
         }
         console.log(`[ERROR]`.bold.red, `Failed to snipe username, retrying in ${cooldown} seconds! (Attempt ${attempt})`);
