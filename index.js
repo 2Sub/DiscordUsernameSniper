@@ -20,7 +20,7 @@ const cron = require('cron');
 new cron.CronJob(`*/${cooldown} * * * * *`, () => {
     attempt += 1;
 
-    axios.post('https://ptb.discord.com/api/v9/users/@me/pomelo', { username: username }, {
+    axios.post('https://ptb.discord.com/api/v9/users/@me/pomelo', { "username": username }, {
         headers: {
             'Content-Type': 'application/json',
             Authorization: token
