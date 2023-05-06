@@ -29,7 +29,7 @@ You'll need to configure this by setting up the .env file. Here's the variables 
     TOKEN: The user token for the account you want to use.
     USERNAME: The username that you want to snipe.
     COOLDOWN (Optional): The cooldown period in seconds between each attempt.
-    ERROR_DETAILS (Optional): Logs more specific error messages rather than the default one.
+    ERROR_DETAILS (Optional): Logs more specific error messages rather than the default generic one.
 
 Make sure to save the changes to the .env file after you've configured it.
 
