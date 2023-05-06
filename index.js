@@ -4,7 +4,7 @@ colors = require('colors');
 
 const username = process.env.USERNAME;
 const token = process.env.TOKEN;
-const cooldown = process.env.COOLDOWN || 20;
+const cooldown = process.env.COOLDOWN || 60;
 
 if (!username) {
     return console.log(`[ERROR]`.bold.red, `No username specified!`);
