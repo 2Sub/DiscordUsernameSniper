@@ -20,7 +20,7 @@ To use the sniper, follow these steps:
 
     Navigate to the project directory in your terminal.
     Run `node index.js` to start the sniper.
-    The program will begin sniping the username based on the cooldown set (default is 20 seconds).
+    The program will begin sniping the username based on the cooldown set.
     If the sniper successfully snipes the username, it will exit. Otherwise, it will keep running and attempting to snipe the username.
 
 ## Configuration
